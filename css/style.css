@@ -1,0 +1,46 @@
+/** {
+    font-family: ; para elegir el tipo de letra
+}*/
+body {
+    margin: 0;
+    background-color: white;
+}
+
+.container {
+    margin: 0 auto;
+    background-color:white;
+}
+
+.containerheaderleft {
+    width: 70%;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /*text-align: left;*/
+    float: left;
+}
+
+.containerheaderright {
+    text-align: right;
+    width: 10%;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    float: right; /*para añadir dos div en una misma línea*/
+}
+img.redimension{ /*ajuste de tamaño de la imagen de microsoft*/ 
+    height: 20px;
+    margin-right: 10px; /*dejamos un espacio entre la imagen y la barra*/
+    /*width: 10%;     si ponemos esto la imagen no se ve bien*/
+}
+.tag { /*palabra ayuda*/
+    font-size: 11px; /*tamaño de la letra*/
+    margin-left: 10px;
+}
+a {
+    text-decoration: none;
+}
+
+.bienvenida{
+    height: 40px;
+}
