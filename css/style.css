@@ -1,6 +1,6 @@
-/** {
-    font-family: ; para elegir el tipo de letra
-}*/
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /*para elegir el tipo de letra*/
+}
 body {
     margin: 0;
     background-color: white;
@@ -13,9 +13,9 @@ body {
 
 .containerheaderleft {
     width: 70%;
-    padding-left: 40px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-left: 75px;
+    
+    /*padding-bottom: 10px;*/
     /*text-align: left;*/
     float: left;
 }
@@ -23,24 +23,25 @@ body {
 .containerheaderright {
     text-align: right;
     width: 10%;
-    padding-right: 40px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-right: 75px;
+    padding-top: 15px;
+    /*padding-bottom: 20px;*/
     float: right; /*para añadir dos div en una misma línea*/
 }
-img.redimension{ /*ajuste de tamaño de la imagen de microsoft*/ 
+img.redimensionmicrosoft{ /*ajuste de tamaño de la imagen de microsoft*/ 
     height: 20px;
     margin-right: 10px; /*dejamos un espacio entre la imagen y la barra*/
     /*width: 10%;     si ponemos esto la imagen no se ve bien*/
 }
 .tag { /*palabra ayuda*/
-    font-size: 11px; /*tamaño de la letra*/
+    font-size: 13px; /*tamaño de la letra*/
     margin-left: 10px;
 }
 a {
     text-decoration: none;
+    font-size: 20px;
 }
 
 .bienvenida{
-    height: 40px;
+    
 }
