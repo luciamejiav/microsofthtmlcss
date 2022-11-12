@@ -3,45 +3,73 @@
 }
 body {
     margin: 0;
+    padding: 0;
     background-color: white;
 }
 
-.container {
-    margin: 0 auto;
-    background-color:white;
+header{
+    height: 30px;
+    width: auto;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 14px;
+    padding-bottom: 14px;
 }
 
-.containerheaderleft {
-    width: 70%;
-    padding-left: 75px;
-    
-    /*padding-bottom: 10px;*/
-    /*text-align: left;*/
-    float: left;
-}
-
-.containerheaderright {
-    text-align: right;
+.microsoft {
+    background-image: url(../img/logo.png);
+    background-size: cover;
+    height: 25px;
     width: 10%;
-    padding-right: 75px;
-    padding-top: 15px;
-    /*padding-bottom: 20px;*/
-    float: right; /*para añadir dos div en una misma línea*/
+    float: left;
+    margin-right: 20px;
 }
-img.redimensionmicrosoft{ /*ajuste de tamaño de la imagen de microsoft*/ 
-    height: 20px;
-    margin-right: 10px; /*dejamos un espacio entre la imagen y la barra*/
-    /*width: 10%;     si ponemos esto la imagen no se ve bien*/
+
+.cuenta {
+    float: left;
+    margin-top: 2px;
+    margin-right: 15px;
+    font-size: 20px;
 }
+.ayuda{
+    float: left;
+    margin-top: 7px;
+    font-size: 15px;
+}
+.iniciosesion {
+    float:right
+}
+.lupa{
+    float: right;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
 .tag { /*palabra ayuda*/
     font-size: 13px; /*tamaño de la letra*/
     margin-left: 10px;
 }
 a {
     text-decoration: none;
-    font-size: 20px;
+    
 }
 
 .bienvenida{
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    height: 500px;
+}
+.texto-bienvenida{
+    float: left;
+    width: 35%;
+    padding-top: 105px;
+    padding-left: 105px;
+}
+.botones{
+    float: left;
+    margin-top: 50px;
     
 }
+
+
+
